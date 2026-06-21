@@ -34,7 +34,6 @@
             android:text="@string/radio_button_text3" />
 
     </RadioGroup>
-    
 
     <TextView
         android:id="@+id/textViewQuestion"
