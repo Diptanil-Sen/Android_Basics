@@ -27,7 +27,6 @@ class MainActivity : AppCompatActivity() {
         myButton.setOnClickListener {
             val input=editText.text
 
-
             myTextView.visibility=View.VISIBLE
             myTextView.text=input
         }
