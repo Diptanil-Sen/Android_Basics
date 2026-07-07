@@ -23,7 +23,7 @@ class MainActivity : AppCompatActivity() {
         editText=findViewById(R.id.editText)
 
         myButton.text=getString(R.string.button_text)
-
+        
         myButton.setOnClickListener {
             val input=editText.text
 
