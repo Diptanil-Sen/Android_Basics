@@ -10,6 +10,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.example.recycleview.Adaptor.ExampleAdaptor
 import com.example.recycleview.Model.ExampleItem
 class MainActivity : AppCompatActivity() {
+    
     private lateinit var recyclerView: RecyclerView
     private lateinit var adaptor:ExampleAdaptor
     override fun onCreate(savedInstanceState: Bundle?) {
